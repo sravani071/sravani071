@@ -8,7 +8,7 @@ public class playwrightBasics {
 		int b = 20;
 		int c = a+b;
 		int d = c+10;
-		System.out.println(d); // iam in brnach now
+		System.out.println(d); // iam in branch now
 
 	}
 
