@@ -7,7 +7,8 @@ public class playwrightBasics {
 		int a =10;
 		int b = 20;
 		int c = a+b;
-		System.out.println(c);
+		int d = c+10;
+		System.out.println(d); // iam in brnach now
 
 	}
 
