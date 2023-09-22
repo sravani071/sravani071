@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-15T19:47:02 IST" name="Surefire suite" finished-at="2023-09-15T19:47:02 IST" duration-ms="74">
+    <groups>
+    </groups>
+    <test started-at="2023-09-15T19:47:02 IST" name="Surefire test" finished-at="2023-09-15T19:47:02 IST" duration-ms="74">
+      <class name="artifactid.TextFileCreation2Test">
+        <test-method signature="FileCreation()[pri:0, instance:artifactid.TextFileCreation2Test@45ca843]" started-at="2023-09-15T19:47:02 IST" name="FileCreation" finished-at="2023-09-15T19:47:02 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileCreation -->
+      </class> <!-- artifactid.TextFileCreation2Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
