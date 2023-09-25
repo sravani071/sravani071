@@ -12,10 +12,10 @@ import org.junit.Test;
 public class TextFileCreationTest {
 	
     @Test
-	public void FileCreation(String input) throws IOException{
+	public void FileCreation() throws IOException{
 	    //try {
 	     //String ts = new Date().toString();
-    	input = System.getProperty("parm");
+    	String input = System.getProperty("parm");
 		String ts = new SimpleDateFormat("ddMMyyyy_hhmmss").format(new Date());  
 	      File myObj = new File("src/test/resources/FileCreation/"+ts+".txt");
 	      if (myObj.createNewFile()) {
