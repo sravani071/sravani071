@@ -20,6 +20,7 @@ public class TextFileCreationTest {
 	      //File myObj = new File("src/test/resources/FileCreation/"+ts+".txt");
 	      //if (myObj.createNewFile()) {
 	        //System.out.println("File created: " + myObj.getName());
+		System.out.println(input.getAbsoluteFile());
 	        FileWriter fWriter = new FileWriter(input.getAbsoluteFile());
 	            fWriter.append("Test file creation");
 	            fWriter.close();
