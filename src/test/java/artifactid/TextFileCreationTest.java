@@ -19,7 +19,7 @@ public class TextFileCreationTest {
 		String ts = new SimpleDateFormat("ddMMyyyy_hhmmss").format(new Date());  
 	      File myObj = new File("src/test/resources/FileCreation/"+ts+".txt");
 	      if (myObj.createNewFile()) {
-	        System.out.println("File created: " + myObj.getName());
+	        System.out.println("File created : " + myObj.getName());
 	        FileWriter fWriter = new FileWriter("src/test/resources/FileCreation/"+myObj.getName());
 	            //fWriter.write((String)input);
 	            fWriter.write((String)input);
